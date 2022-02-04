@@ -14,11 +14,13 @@ public class EmployeeController {
     @Autowired
     private EmployeeRepository employeeRepository;
 
+    //Get
     @GetMapping
     public List<Employee> getAllEmployees(){
         return employeeRepository.findAll();
     }
 
+    //Create Employee
     @PostMapping
     public Employee createEmployee(@RequestBody Employee employee){
         return employeeRepository.save(employee);
