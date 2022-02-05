@@ -19,17 +19,7 @@ public class CrudSpringReactjsApplication implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-//        Employee employee = new Employee();
-//        employee.setFirstName("Finn");
-//        employee.setLastName("Nguyen");
-//        employee.setEmailId("finnnguyen@gmail.com");
-//        employeeRepository.save(employee);
-//
-//        Employee employee1 = new Employee();
-//        employee1.setFirstName("Finn1");
-//        employee1.setLastName("Nguyen1");
-//        employee1.setEmailId("finnnguyen1@gmail.com");
-//        employeeRepository.save(employee1);
+
 
     }
 }
