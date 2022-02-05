@@ -8,18 +8,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CrudSpringReactjsApplication implements CommandLineRunner {
+public class CrudSpringReactjsApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(CrudSpringReactjsApplication.class, args);
-    }
-
-    @Autowired
-    private EmployeeRepository employeeRepository;
-
-    @Override
-    public void run(String... args) throws Exception {
-
-
     }
 }
